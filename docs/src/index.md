@@ -76,7 +76,7 @@ Through this method, we obtained a high-resolution picture of local hydration an
 ```@raw html
 <figure style="text-align: center;">
   <img src="figures/Figure4.gif" style="width:100%">
-  <figcaption>Figure 4. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
+  <figcaption>Figure 4. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits.</figcaption>
 </figure>
 ```
 
@@ -86,15 +86,49 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="figures/Figure5.png" style="width:100%">
-  <figcaption>Figure 5. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
+  <img src="figures/Figure5.gif" style="width:100%">
+  <figcaption>Figure 5. Time-resolved coordination profiles showing how POPC preferentially interacts with chains K, M, and O during the simulation.</figcaption>
 </figure>
 ```
 
+```@raw html
+<figure style="text-align: center;">
+  <img src="figures/Figure6.gif" style="width:100%">
+  <figcaption>Figure 6. Time evolution of the coordination number of POPC molecules surrounding the E-protein chains L, N, and P.</figcaption>
+</figure>
+```
 
 #### POPE
 
+```@raw html
+<figure style="text-align: center;">
+  <img src="figures/Figure7.gif" style="width:100%">
+  <figcaption>Figure 7. Dynamic changes in POPE coordination reflect differential solvent exposure across the E-protein subunits (chains K, M, and O).</figcaption>
+</figure>
+```
+
+```@raw html
+<figure style="text-align: center;">
+  <img src="figures/Figure8.gif" style="width:100%">
+  <figcaption>Figure 8. Evolution of POPE contacts with chains L, N, and P over time.</figcaption>
+</figure>
+```
+
 #### POPS
+
+```@raw html
+<figure style="text-align: center;">
+  <img src="figures/Figure9.gif" style="width:100%">
+  <figcaption>Figure 9. Time-dependent variation in the number of POPS molecules interacting with E-protein chains K, M, and O throughout the simulation.</figcaption>
+</figure>
+```
+
+```@raw html
+<figure style="text-align: center;">
+  <img src="figures/Figure10.gif" style="width:100%">
+  <figcaption>Figure 10. POPS coordination number vs. simulation time for E-protein chains L, N, and P.</figcaption>
+</figure>
+```
 
 ## Acknowledgments
 
