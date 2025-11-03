@@ -52,21 +52,33 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/figure1.png" style="width:70%">
+  <img src="../figures/Figure1.png" style="width:70%">
   <figcaption>Figure 1. Structural organization of the mature Zika virus envelope. (a) Top view of the viral surface highlighting the three structural domains of the envelope (E) protein: Domain I (magenta), Domain II (yellow), and Domain III (blue). The symmetry axes of the icosahedral arrangement are indicated as 2-fold (ellipse), 3-fold (triangle), and 5-fold (pentagon). (b) Equivalent representation showing the trimeric organization of the E protein units, colored by chain identifier (K, M, and O), which form the repeating structural units across the viral surface.</figcaption>
 </figure>
 ```
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/figure2.png" style="width:100%">
+  <img src="../figures/Figure2.png" style="width:100%">
   <figcaption>Figure 2. Structural organization of the E–M protein interface in the Zika virus envelope. Highlighted elements correspond to the amphipathic (EH) and transmembrane (ET) helices of the envelope (E) protein and the membrane (MH) helices of the M protein. Each region is labeled according to its designation (EH-1 to EH-3, ET-1 to ET-2, and MH-1 to MH-3). These helices play key roles in anchoring the E protein to the membrane and mediating interactions within the viral lipid environment.</figcaption>
 </figure>
 ```
 
 ### WT4 Molecules and E Protein
 
+```@raw html
+<figure style="text-align: center;">
+  <img src="../figures/Figure3.png" style="width:100%">
+  <figcaption>Figure 3. Time-dependent assessment of the coordination number of WT4 water molecules for chains K, M, and O (E-protein).</figcaption>
+</figure>
+```
 
+```@raw html
+<figure style="text-align: center;">
+  <img src="../figures/Figure4.png" style="width:100%">
+  <figcaption>Figure 4. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
+</figure>
+```
 
 ### Lipid Bilayer and M Protein
 
