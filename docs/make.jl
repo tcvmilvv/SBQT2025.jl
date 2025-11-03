@@ -5,9 +5,6 @@ makedocs(
     sitename = "SBQT2025",
     format = Documenter.HTML(),
     modules = [SBQT2025],
-    pages = [
-        "Home" => "index.md"
-    ]
 )
 
 # Documenter can also automatically deploy documentation to gh-pages.
