@@ -1,6 +1,8 @@
 # Dynamics and Specificity in the Microenvironment of the Zika Virus
 
+```@raw html
 Camila Assis <b>Tavares</b><sup>1,2</sup>, Martín <b>Soñora</b><sup>3</sup>, Sergio <b>Pantano</b><sup>3</sup>, Leandro <b>Martínez</b><sup>1,2</sup> <br>
+```
 
 ```@raw html
 <span style="font-size:0.8em">
@@ -35,11 +37,11 @@ A central metric in this analysis was the coordination number (CN), which measur
 ```@raw html
 This calculation process is illustrated schematically in Figure X:
 
-- A solute atom (e.g., from the viral envelope protein) is defined as the reference center.
+• A solute atom (e.g., from the viral envelope protein) is defined as the reference center. <br>
 
-- Distances (r<sub>i</sub>) to surrounding solvent atoms are measured.
+• Distances (r<sub>i</sub>) to surrounding solvent atoms are measured. <br>
 
-- All atoms within r<sub>c</sub> are counted, giving CN = N(r<sub>i</sub> ≤ r<sub>c</sub>).
+• All atoms within r<sub>c</sub> are counted, giving CN = N(r<sub>i</sub> ≤ r<sub>c</sub>). <br>
 ```
 
 Through this method, we obtained a high-resolution picture of local hydration and ionic structuring around protein domains and membrane regions, enabling quantitative assessment of solvent accessibility and the dynamic heterogeneity of the viral microenvironment.
