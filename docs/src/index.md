@@ -68,14 +68,14 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure3.png" style="width:100%">
+  <img src="../figures/Figure3.gif" style="width:100%">
   <figcaption>Figure 3. Time-dependent assessment of the coordination number of WT4 water molecules for chains K, M, and O (E-protein).</figcaption>
 </figure>
 ```
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure4.png" style="width:100%">
+  <img src="../figures/Figure4.gif" style="width:100%">
   <figcaption>Figure 4. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
 </figure>
 ```
