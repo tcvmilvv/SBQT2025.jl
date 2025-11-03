@@ -4,7 +4,10 @@ using SBQT2025
 makedocs(
     sitename = "SBQT2025",
     format = Documenter.HTML(),
-    modules = [SBQT2025]
+    modules = [SBQT2025],
+    pages = [
+        "Home" => "SBQT.md"
+    ]
 )
 
 # Documenter can also automatically deploy documentation to gh-pages.
