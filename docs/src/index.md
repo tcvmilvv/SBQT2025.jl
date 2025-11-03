@@ -82,20 +82,23 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ### Lipid Bilayer and M Protein
 
+#### POPC
 
+```@raw html
+<figure style="text-align: center;">
+  <img src="../figures/Figure5.png" style="width:100%">
+  <figcaption>Figure 5. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
+</figure>
+```
+
+
+#### POPE
+
+#### POPS
 
 ## Acknowledgments
 
 The authors acknowledge the financial support of FAPESP (2013/08293-7, 2018/24293-0 and 2023/14353-4). Research developed with the assistance of computing resources of COARACI (2019/17874-0) provided by Center for Computational Engineering & Science (CCES - Unicamp).
-
-
-## References
-
-[^1]: Sevvana, Madhumati et al. Structure, 2018, 26(9), 1169-1177.
-[^2]: Klein, Florencia et al. Journal of Structural Biology, 2023, 215(3), 107985.
-[^3]: Soñora, Martín et al. Journal of Chemical Information and Modeling, 2021, 61(1), 408-422.
-[^4]: Martínez, Leandro. Journal of Molecular Liquids. 2022, 347, 117945.
-
 
 ```@raw html
 <a href="http://m3g.iqm.unicamp.br">
@@ -104,3 +107,10 @@ The authors acknowledge the financial support of FAPESP (2013/08293-7, 2018/2429
 ```
 
  _This work was carried out by the **M3G Group** at Unicamp in collaboration with the **Biomolecular Simulations Group** at the Institut Pasteur de Montevideo._
+
+ ## References
+
+[^1]: Sevvana, Madhumati et al. Structure, 2018, 26(9), 1169-1177.
+[^2]: Klein, Florencia et al. Journal of Structural Biology, 2023, 215(3), 107985.
+[^3]: Soñora, Martín et al. Journal of Chemical Information and Modeling, 2021, 61(1), 408-422.
+[^4]: Martínez, Leandro. Journal of Molecular Liquids. 2022, 347, 117945.
