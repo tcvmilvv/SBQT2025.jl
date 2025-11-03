@@ -21,16 +21,16 @@ It provides additional figures, data, and analyses that could not be included in
 
 ## Introduction
 The stability and infectivity of viral particles are profoundly influenced by a complex network of interactions with their microenvironment, which includes the lipid bilayer, ions, and water molecules. However, obtaining atomic resolution of these light and dynamic components remains a significant challenge for traditional experimental techniques, such as X-ray crystallography and cryo-electron microscopy, which often provide a static view [^1] [^2]. To overcome these limitations, this study used coarse-grain molecular dynamics simulations to investigate in detail the
-distribution and behavior of these elements in the structure of the mature Zika virus. The quantitative analysis, performed with the ComplexMixtures.jl package, focuses on deciphering the specific interactions between the viral envelope proteins and the different solvent components, such as water molecules (WT4) and the lipid bilayer [^3] [^4].
+distribution and behavior of these elements in the structure of the mature Zika virus. The quantitative analysis, performed with the [ComplexMixtures.jl](https://m3g.github.io/ComplexMixtures.jl) package, focuses on deciphering the specific interactions between the viral envelope proteins and the different solvent components, such as water molecules (WT4) and the lipid bilayer [^3] [^4].
 
 ## Computational Details
-Coarse-grained molecular dynamics (MD) simulations were carried out to explore the organization and dynamics of the mature Zika virus envelope. The initial coordinates were taken from the cryo-electron microscopy structure deposited in the Protein Data Bank (PDB ID: 6CO8). The complete viral system, including the lipid bilayer and solvent environment, was assembled using PACKMOL (version 18.169), ensuring the correct spatial distribution of proteins, lipids, and water molecules.
+Coarse-grained molecular dynamics (MD) simulations were carried out to explore the organization and dynamics of the mature Zika virus envelope. The initial coordinates were taken from the cryo-electron microscopy structure deposited in the Protein Data Bank (PDB ID: 6CO8). The complete viral system, including the lipid bilayer and solvent environment, was assembled using [PACKMOL](https://m3g.github.io/packmol/) (version 18.169), ensuring the correct spatial distribution of proteins, lipids, and water molecules.
 
 All molecular entities were described using the SIRAH 2.0 coarse-grained force field, which balances structural accuracy with computational efficiency. Simulations were performed with the GROMACS package (version 2018.4, [http://www.gromacs.org](http://www.gromacs.org)), employing GPU acceleration. Temperature and pressure were maintained at 300 K and 1 bar, respectively, using the V-rescale thermostat and the Parrinello–Rahman barostat.
 
 Nonbonded interactions were calculated using a 12 Å cutoff, and long-range electrostatics were handled via the particle mesh Ewald (PME) approach. Integration of Newton’s equations of motion was achieved using the leapfrog algorithm with an adaptive timestep: 2 fs during equilibration, later increased to 20 fs for production runs. Neighbor lists were updated every 10 steps, and coordinates were recorded every 100 ps for post-simulation analysis.
 
-To characterize the organization of light molecular components—such as water molecules and ions—around the viral envelope, analyses were performed using the ComplexMixtures.jl package. This Julia-based framework enables quantitative assessment of solute–solvent interactions in complex and irregular environments, such as viral membranes.
+To characterize the organization of light molecular components—such as water molecules and ions—around the viral envelope, analyses were performed using the [ComplexMixtures.jl](https://m3g.github.io/ComplexMixtures.jl) package. This Julia-based framework enables quantitative assessment of solute–solvent interactions in complex and irregular environments, such as viral membranes.
 
 A central metric in this analysis was the coordination number (CN), which measures how many solvent sites are located within a specified distance from solute atoms. For each frame of the trajectory, the algorithm iterates through all solute–solvent pairs, computing interatomic distances and counting those within a chosen cutoff radius (rc). Each qualifying solvent molecule contributes to the instantaneous CN of the corresponding solute site. The resulting time-resolved CN profiles reveal how solvent density and organization fluctuate around specific protein regions throughout the simulation.
 
@@ -52,14 +52,14 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure1.png" style="width:70%">
+  <img src="./figures/Figure1.png" style="width:70%">
   <figcaption>Figure 1. Structural organization of the mature Zika virus envelope. (a) Top view of the viral surface highlighting the three structural domains of the envelope (E) protein: Domain I (magenta), Domain II (yellow), and Domain III (blue). The symmetry axes of the icosahedral arrangement are indicated as 2-fold (ellipse), 3-fold (triangle), and 5-fold (pentagon). (b) Equivalent representation showing the trimeric organization of the E protein units, colored by chain identifier (K, M, and O), which form the repeating structural units across the viral surface.</figcaption>
 </figure>
 ```
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure2.png" style="width:100%">
+  <img src="./figures/Figure2.png" style="width:100%">
   <figcaption>Figure 2. Structural organization of the E–M protein interface in the Zika virus envelope. Highlighted elements correspond to the amphipathic (EH) and transmembrane (ET) helices of the envelope (E) protein and the membrane (MH) helices of the M protein. Each region is labeled according to its designation (EH-1 to EH-3, ET-1 to ET-2, and MH-1 to MH-3). These helices play key roles in anchoring the E protein to the membrane and mediating interactions within the viral lipid environment.</figcaption>
 </figure>
 ```
@@ -68,14 +68,14 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure3.gif" style="width:100%">
+  <img src="./figures/Figure3.gif" style="width:100%">
   <figcaption>Figure 3. Time-dependent assessment of the coordination number of WT4 water molecules for chains K, M, and O (E-protein).</figcaption>
 </figure>
 ```
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure4.gif" style="width:100%">
+  <img src="./figures/Figure4.gif" style="width:100%">
   <figcaption>Figure 4. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
 </figure>
 ```
@@ -86,7 +86,7 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/Figure5.png" style="width:100%">
+  <img src="./figures/Figure5.png" style="width:100%">
   <figcaption>Figure 5. Temporal variation in the number of WT4 water molecules coordinated to E-protein chains L, N, and P, illustrating differences in hydration dynamics among subunits..</figcaption>
 </figure>
 ```
