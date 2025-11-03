@@ -35,7 +35,7 @@ To characterize the organization of light molecular components—such as water m
 A central metric in this analysis was the coordination number (CN), which measures how many solvent sites are located within a specified distance from solute atoms. For each frame of the trajectory, the algorithm iterates through all solute–solvent pairs, computing interatomic distances and counting those within a chosen cutoff radius (r<sub>c</sub>). Each qualifying solvent molecule contributes to the instantaneous CN of the corresponding solute site. The resulting time-resolved CN profiles reveal how solvent density and organization fluctuate around specific protein regions throughout the simulation.
 
 ```@raw html
-This calculation process is illustrated schematically in Figure X:
+This calculation process is illustrated schematically in Figure X: <br>
 
 • A solute atom (e.g., from the viral envelope protein) is defined as the reference center. <br>
 
