@@ -6,7 +6,7 @@ makedocs(
     format = Documenter.HTML(),
     modules = [SBQT2025],
     pages = [
-        "Home" => "SBQT.md"
+        "Home" => "index.md"
     ]
 )
 
