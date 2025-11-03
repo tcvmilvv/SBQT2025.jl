@@ -2,12 +2,14 @@
 
 Camila Assis <b>Tavares</b><sup>1,2</sup>, Martín <b>Soñora</b><sup>3</sup>, Sergio <b>Pantano</b><sup>3</sup>, Leandro <b>Martínez</b><sup>1,2</sup> <br>
 
+```@raw html
 <span style="font-size:0.8em">
 <sup>1</sup> Institute of Chemistry, Universidade Estadual de Campinas (UNICAMP), Campinas, SP, Brazil <br>
 <sup>2</sup> Center for Computational Engineering & Science, Universidade Estadual de Campinas (UNICAMP), Campinas, SP, Brazil <br>
 <sup>3</sup> Biomolecular Simulations Group, Institut Pasteur de Montevideo, Mataojo 2020, Montevideo, Uruguay<br>
 </span>
 <br>
+```
 
 _Corresponding author:_ [lmartine@unicamp.br](mailto:lmartine@unicamp.br)
 
@@ -30,6 +32,7 @@ To characterize the organization of light molecular components—such as water m
 
 A central metric in this analysis was the coordination number (CN), which measures how many solvent sites are located within a specified distance from solute atoms. For each frame of the trajectory, the algorithm iterates through all solute–solvent pairs, computing interatomic distances and counting those within a chosen cutoff radius (r<sub>c</sub>). Each qualifying solvent molecule contributes to the instantaneous CN of the corresponding solute site. The resulting time-resolved CN profiles reveal how solvent density and organization fluctuate around specific protein regions throughout the simulation.
 
+```@raw html
 This calculation process is illustrated schematically in Figure X:
 
 - A solute atom (e.g., from the viral envelope protein) is defined as the reference center.
@@ -37,6 +40,7 @@ This calculation process is illustrated schematically in Figure X:
 - Distances (r<sub>i</sub>) to surrounding solvent atoms are measured.
 
 - All atoms within r<sub>c</sub> are counted, giving CN = N(r<sub>i</sub> ≤ r<sub>c</sub>).
+```
 
 Through this method, we obtained a high-resolution picture of local hydration and ionic structuring around protein domains and membrane regions, enabling quantitative assessment of solvent accessibility and the dynamic heterogeneity of the viral microenvironment.
 
@@ -46,7 +50,7 @@ Through this method, we obtained a high-resolution picture of local hydration an
 
 ```@raw html
 <figure style="text-align: center;">
-  <img src="../figures/figure1.png" style="width:100%">
+  <img src="../figures/figure1.png" style="width:70%">
   <figcaption>Figure 1. Structural organization of the mature Zika virus envelope. (a) Top view of the viral surface highlighting the three structural domains of the envelope (E) protein: Domain I (magenta), Domain II (yellow), and Domain III (blue). The symmetry axes of the icosahedral arrangement are indicated as 2-fold (ellipse), 3-fold (triangle), and 5-fold (pentagon). (b) Equivalent representation showing the trimeric organization of the E protein units, colored by chain identifier (K, M, and O), which form the repeating structural units across the viral surface.</figcaption>
 </figure>
 ```
