@@ -1,0 +1,13 @@
+name = "SBQT2025"
+uuid = "619e501e-3aa1-41db-9714-19fb08ed9439"
+authors = ["Camila A. Tavares", "Martín Soñora", "Sergio Pantano", "Leandro Martínez"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
